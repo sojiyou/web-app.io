@@ -1,0 +1,66 @@
+body{
+   background-color: #e1e1e1;
+   margin: 0 auto; padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+#container{
+   background-color: rgb(249, 249, 249);
+   margin: 0 auto; padding: 5px;
+   width: 80%;
+   display: flex;
+   justify-content: left;
+   align-items: left;
+   flex-direction: column;
+   border:none;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+h1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+form{
+   display: flex;
+   flex-direction: column;
+}
+form button{
+   margin: 5px;
+   padding: 5px;
+   width: 60px;
+   border: none;
+   border-radius: 5px;
+   background-color: #10a815;
+   color: white;
+}
+form input, label{
+   padding: 5px;
+   width: auto;
+}
+input{
+   border: 1px solid gray;
+   border-radius: 5px;
+}
+input:focus{
+   outline: none;
+}
+#userTable{
+   width: 100%;
+   background-color:#e1e1e1;
+   text-align: left;
+   border-collapse: collapse;
+}
+#userTable th, td{
+   padding: 5px;
+   border: 1px solid rgb(162, 161, 161);
+}
+button{
+   padding: 5px;
+   width: 60px;
+   border: none;
+   border-radius: 5px;
+   background-color: #10a815;
+   color: white;
+}
